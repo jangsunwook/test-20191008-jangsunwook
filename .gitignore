@@ -1,0 +1,237 @@
+# https://www.toptal.com/developers/gitignore/api/code,flask,python,windows 제작
+# https://www.toptal.com/developers/gitignore?templates=code,flask,python,windows에서 편집
+
+### 코드 ###
+.vscode / *
+! .vscode / settings.json
+! .vscode / tasks.json
+! .vscode / launch.json
+! .vscode / extensions.json
+* .code-workspace
+
+myenv/
+
+### 플라스크 ###
+예/*
+! instance / .gitignore
+.webassets-cache
+
+### Flask.Python Stack ###
+# 바이트 컴파일 / 최적화 / DLL 파일
+__pycache __ /
+* .py [대구]
+* $ py.class
+
+# C 확장
+*.그래서
+
+# 유통 / 포장
+. 파이썬
+짓다/
+개발 계란 /
+dist /
+다운로드 /
+달걀/
+.달걀/
+lib /
+lib64 /
+부속/
+sdist /
+var /
+바퀴 /
+핍 휠 메타 데이터 /
+공유 / 파이썬 휠 /
+* .egg-info /
+.installed.cfg
+*.계란
+명백한
+
+# PyInstaller
+# 일반적으로 이러한 파일은 템플릿의 파이썬 스크립트로 작성됩니다.
+PyInstaller가 exe를 빌드하기 전에 #는 날짜 / 기타 정보를 주입합니다.
+*.명백한
+*.투기
+
+# 인스톨러 로그
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 단위 테스트 / 범위 보고서
+htmlcov /
+.tox /
+.nox /
+.적용 범위
+.적용 범위.*
+.은닉처
+nosetests.xml
+coverage.xml
+*.덮개
+* .py, 커버
+가설 /
+.pytest_cache /
+
+# 번역
+* .mo
+*.냄비
+
+장고 물건 :
+*.로그
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# 플라스크 재료 :
+예/
+
+# 으스스한 것들 :
+.scrapy
+
+# 스핑크스 설명서
+docs / _build /
+
+# 파이 빌더
+표적/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default /
+ipython_config.py
+
+# pyenv
+.python 버전
+
+# pipenv
+# pypa / pipenv # 598에 따르면, 버전 제어에 Pipfile.lock을 포함시키는 것이 좋습니다.
+# 그러나 협업의 경우 플랫폼 별 종속성 또는 종속성이있는 경우
+# 크로스 플랫폼 지원이없는 pipenv는 작동하지 않거나 작동하지 않는 종속성을 설치할 수 있습니다
+# 필요한 모든 의존성을 설치하십시오.
+# Pipfile.lock
+
+# PEP 582; github.com/David-OConnor/pyflow에서 사용
+__pypackages __ /
+
+# 셀러리 물건
+셀러리 비트 일정
+celerybeat.pid
+
+# SageMath 파싱 된 파일
+* .sage.py
+
+# 환경
+.env
+.venv
+env /
+venv /
+ENV /
+env.bak /
+venv.bak /
+
+# 스파이더 프로젝트 설정
+.spyderproject
+.spyproject
+
+# 로프 프로젝트 설정
+.ropeproject
+
+# mkdocs 문서
+/대지
+
+# mypy
+.mypy_cache /
+.dmypy.json
+dmypy.json
+
+# 파이어 타입 체커
+.pyre /
+
+# pytype 정적 타입 분석기
+.pytype /
+
+### 파이썬 ###
+# 바이트 컴파일 / 최적화 / DLL 파일
+
+# C 확장
+
+# 유통 / 포장
+
+# PyInstaller
+# 일반적으로 이러한 파일은 템플릿의 파이썬 스크립트로 작성됩니다.
+PyInstaller가 exe를 빌드하기 전에 #는 날짜 / 기타 정보를 주입합니다.
+
+# 인스톨러 로그
+
+# 단위 테스트 / 범위 보고서
+
+# 번역
+
+장고 물건 :
+
+# 플라스크 재료 :
+
+# 으스스한 것들 :
+
+# 스핑크스 설명서
+
+# 파이 빌더
+
+# Jupyter Notebook
+
+# IPython
+
+# pyenv
+
+# pipenv
+# pypa / pipenv # 598에 따르면, 버전 제어에 Pipfile.lock을 포함시키는 것이 좋습니다.
+# 그러나 협업의 경우 플랫폼 별 종속성 또는 종속성이있는 경우
+# 크로스 플랫폼 지원이없는 pipenv는 작동하지 않거나 작동하지 않는 종속성을 설치할 수 있습니다
+# 필요한 모든 의존성을 설치하십시오.
+
+# PEP 582; github.com/David-OConnor/pyflow에서 사용
+
+# 셀러리 물건
+
+# SageMath 파싱 된 파일
+
+# 환경
+
+# 스파이더 프로젝트 설정
+
+# 로프 프로젝트 설정
+
+# mkdocs 문서
+
+# mypy
+
+# 파이어 타입 체커
+
+# pytype 정적 타입 분석기
+
+### Windows ###
+# Windows 썸네일 캐시 파일
+Thumbs.db
+Thumbs.db : 암호화 가능
+ehthumbs.db
+ehthumbs_vista.db
+
+# 덤프 파일
+* .stackdump
+
+# 폴더 설정 파일
+[Dd] esktop.ini
+
+# 파일 공유에 사용되는 휴지통
+$ RECYCLE.BIN /
+
+# Windows Installer 파일
+*.택시
+* .msi
+* .msix
+* .msm
+* .msp
+
+# Windows 단축키
+* .lnk
+
+# https://www.toptal.com/developers/gitignore/api/code,flask,python,windows 끝
